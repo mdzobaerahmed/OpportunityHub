@@ -1,0 +1,4 @@
+# Allow direct download of uploaded resumes but prevent script execution
+<FilesMatch "\.(php|phtml|php3|php4|php5|pl|py|jsp|asp|sh|cgi)$">
+    Require all denied
+</FilesMatch>
